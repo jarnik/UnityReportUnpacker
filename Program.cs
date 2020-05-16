@@ -48,6 +48,8 @@ namespace UnityReportUnpacker
                 jsonString = File.ReadAllText(file);                
                 report = JsonConvert.DeserializeObject<Report>(jsonString);
                 summaryShort = report.summary.Replace(" ","_");
+                summaryShort = summaryShort.Replace("/","");
+                summaryShort = summaryShort.Replace("\\","");
                 if (summaryShort.Length > 20)
                 {
                     summaryShort = summaryShort.Substring(0,20);
