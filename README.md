@@ -1,7 +1,7 @@
 # UnityReportUnpacker
-Unpack Unity User Reporting JSON
+Unpack Unity User Report downloaded as .json into separate files.
 
-Howto:
+**Howto:**
 
 - go to Unity Cloud User Report, open a report detail
 - click `Report Actions > Download Report`
@@ -12,5 +12,10 @@ Howto:
 
 From this:
 
+![](cloud.png)
 
 To this:
+
+![](unpacked.png)
+
+Using JSON.net by https://www.newtonsoft.com/json
