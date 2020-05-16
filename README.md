@@ -9,3 +9,8 @@ Howto:
 - put the JSON file (or multiple of them) in the same file as this project
 - run `run.bat` with .NET installed
 - will produce a new folder for each JSON file, containing all its content (screenshots etc) unpacked
+
+From this:
+
+
+To this:
